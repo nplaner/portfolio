@@ -2050,12 +2050,12 @@ input, select, textarea {
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
-		width: 10%;
 		left: 0;
 		overflow-y: auto;
 		position: fixed;
-		text-align: center;
+		text-align: right;
 		top: 0;
+		width: 375px;
 	}
 
 		#header .top {
@@ -2242,7 +2242,7 @@ input, select, textarea {
 
 			#main > section.cover {
 				padding: 10em 0;
-				background-size: initial;
+				background-size: cover;
 				background-position: center center;
 			}
 
@@ -2570,7 +2570,7 @@ input, select, textarea {
 				}
 
 				#main section.cover {
-					padding: 5em 0;
+					padding: 4em 0;
 				}
 
 	}
@@ -2609,7 +2609,7 @@ input, select, textarea {
 			}
 
 			#main section.cover {
-				padding: 5em 0em;
+				padding: 4em 0em;
 			}
 
 				#main section.cover header {
